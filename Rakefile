@@ -7,4 +7,3 @@ StandaloneMigrations::Tasks.load_tasks
 
 task :default => :spec
 
-ENV['PG_DEVELOPMENT_USER']
