@@ -8,4 +8,6 @@
 /tmp/
 
 # rspec failure tracking
+db/config.yml
 .rspec_status
+.env*
