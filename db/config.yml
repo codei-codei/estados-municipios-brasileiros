@@ -1,0 +1,17 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+  host: localhost
+  username: 'postgres'
+  password: '110715_DiasP'
+
+development:
+  <<: *default
+  database: estados-municipios-brasileiros_development
+
+test: &test
+  <<: *default
+  database: estados-municipios-brasileiros_test
+
+production:
